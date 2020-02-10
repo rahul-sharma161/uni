@@ -1,0 +1,126 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #26046d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    overflow: hidden;
+    display: block;
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    /* float: right; */
+}
+
+li a {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding: 40px 40px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.flex-container .img {
+    height: 550px;
+    width: 100%;
+    margin: 75px
+}
+
+.flex-container .big-img {
+    height: 700px;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container .box {
+    width: 50%;
+    margin: 10px;
+    text-align: left;
+}
+
+.flex-container .box p {
+    margin: 275px 150px;
+    color: white;
+    font-size: 20px;
+}
+
+.flex-container .box p span {
+    font-size: 34px;
+    display: block;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.button {
+    border-radius: 15px;
+    border: 2px solid #4CAF50;
+    padding: 8px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100px;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.text2 {
+    margin: 50px;
+    color: white;
+    font-size: 44px;
+    text-align: center;
+}
+
+.flex1-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex1-container .box {
+    width: 25%;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.flex1-container .box a {
+    font-size: large;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.flex1-container img {
+    height: 100px;
+    width: auto;
+}
+
+
+/* .flex2-container {
+    display: flex;
+    flex-wrap: nowrap;
+} */
+
+.flex1-container .box .last {
+    margin-left: 550px;
+    display: inline-block;
+    width: 50%;
+}
