@@ -30,7 +30,7 @@ li a {
 
 .flex-container .img {
     height: 400px;
- 
+    /* width: 100%; */
     margin: 75px;
     display: flex;
 }
