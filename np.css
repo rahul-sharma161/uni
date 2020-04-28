@@ -29,8 +29,8 @@ li a {
 }
 
 .flex-container .img {
-    height: 550px;
-    width: 100%;
+    height: 400px;
+    /* width: 100%; */
     margin: 75px;
     display: flex;
 }
