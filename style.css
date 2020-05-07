@@ -132,9 +132,26 @@ body {
     font-size: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
+    body {
+        display: block;
+        margin: 0px;
+    }
     img {
-        max-width: 100%;
-        height: auto;
+        width: 50%;
+        height: 50%;
+    }
+    .flex-container {
+        display: block;
+        text-align: center;
+    }
+    .flex1-container {
+        display: block;
+        text-align: center;
+    }
+    .flex-container img {
+        width: 60%;
+        height: 60%;
+        margin: 30px;
     }
 }
